@@ -1,0 +1,50 @@
+main{
+    padding: 10%;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-normal{
+    box-sizing: border-box;
+    text-decoration: none;
+    width: 90%;
+    display: block;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-top: 10%;
+    background-color: #86e15aff;
+    border-radius: 25rem;
+    font-size: x-large;
+    color: black;
+    text-align: center;
+}
+.btn-emergencia{
+    box-sizing: border-box;
+    text-decoration: none;
+    width: 90%;
+    display: block;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-top: 10%;
+    background-color: #ff0000ff;
+    border-radius: 25rem;
+    font-size: x-large;
+    color: black;
+}
+
+#btnMemorama{
+    background-color: #86e15aff;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    border-style: none;
+    font-size: large;
+}
+.videoControl{
+    background-color: #86e15aff;
+    border-style: none;
+    padding: 5%;
+    align-items: center;
+    border-radius: 20px;
+    text-decoration: none;
+}

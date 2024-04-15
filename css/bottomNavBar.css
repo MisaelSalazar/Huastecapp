@@ -1,0 +1,21 @@
+/* Estilos para la barra de navegación inferior */
+.bottom-navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;/* Antes 60px Cambio Realizado Por Missa 14/03/2024 */
+    background-color: #86e15aff;
+}
+
+.nav-item {
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+}
+
+.text {
+    font-size: 12px;
+}
