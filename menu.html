@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi PWA con Menú Hamburguesa</title>
+  <style>
+    /* Estilos para la barra de navegación superior */
+    body{
+        margin: 0;
+    }
+    #top-bar {
+      background-color: #333;
+      color: white;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      padding: 0 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Estilos para el botón del menú hamburguesa */
+    #menu-btn {
+      margin-right: 20px;
+      cursor: pointer;
+    }
+
+    /* Estilos para el icono del menú hamburguesa */
+    #menu-btn svg {
+      fill: white;
+      width: 24px;
+      height: 24px;
+    }
+
+    /* Estilos para el menú desplegable */
+    #menu-container {
+      display: none;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background-color: #444;
+      width: 200px;
+      height: 100%;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Estilos para los elementos del menú */
+    .menu-item {
+      padding: 10px 0;
+      border-bottom: 1px solid #666;
+      color: white;
+      text-decoration: none;
+      transition: color 0.3s;
+      display: block;
+    }
+
+    /* Cambio de color al pasar el ratón sobre los elementos del menú */
+    .menu-item:hover {
+      color: #FFD700; /* Amarillo */
+    }
+  </style>
+</head>
+<body>
+  <!-- Barra de navegación superior -->
+  <div id="top-bar">
+    <!-- Botón del menú hamburguesa -->
+    <div id="menu-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M21,18H3V16H21V18ZM21,13H3V11H21V13ZM21,6V8H3V6H21Z"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Contenedor del menú desplegable -->
+  <div id="menu-container">
+    <!-- Elementos del menú -->
+    <a href="#" class="menu-item">Inicio</a>
+    <a href="#" class="menu-item">Acerca de</a>
+    <a href="#" class="menu-item">Contacto</a>
+  </div>
+
+  <script>
+    // Función para mostrar/ocultar el menú al hacer clic en el botón hamburguesa
+    function toggleMenu() {
+      var menu = document.getElementById("menu-container");
+      if (menu.style.display === "block") {
+        menu.style.display = "none";
+      } else {
+        menu.style.display = "block";
+      }
+    }
+
+    // Asignar el evento clic al botón hamburguesa
+    document.getElementById("menu-btn").addEventListener("click", toggleMenu);
+  </script>
+</body>
+</html>

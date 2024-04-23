@@ -10,38 +10,41 @@
 
     <link rel="stylesheet" href="../css/bottomNavBar.css">
     <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/topAppMenu.css">
+    <link rel="stylesheet" href="../css/img.css">
+    <link rel="stylesheet" href="../css/buttons.css">
 </head>
 
 <body>
-    <h1>hola</h1>
 
     <header>
+
+        <?php
+            $titulo = "Inicio";
+            include('../components/topAppMenu.php');
+        ?>
 
     </header>
 
     <main>
+        <center>
+            <section>
+                <img id="mapa" src="../img/OIP.jpeg">
+            </section>
+
+            <section>
+                <button id="nahuatl">Nahuatl</button>
+                <button id="tenek">Tenek</button>
+                <button id="pame">Xi'oi</button>
+            </section>
+            <section>
+                <img id="ImagenNiños" src="../img/personajes_principal.png">
+            </section>
+        </center>
 
     </main>
 
     <footer>
-        <nav class="bottom-navbar">
-
-            <a href="views/juegos.php" class="nav-item">
-                <i class="fa-solid fa-gamepad"></i><br>
-                <span class="text">Juegos</span>
-            </a>
-
-            <a href="views/contactos.php" class="nav-item">
-                <i class="fa-solid fa-address-book"></i><br>
-                <span class="text">Contactos</span>
-            </a>
-
-            <a href="views/mapas.php" class="nav-item">
-                <i class="fa-solid fa-earth-americas"></i><br>
-                <span class="text">Mapas</span>
-            </a>
-
-        </nav>
     </footer>
 
 
