@@ -3,4 +3,35 @@ body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: antiquewhite;
+    background-image: url("../img/fondo.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+a{
+    text-decoration: none;
+    margin: 0%;
+}
+
+main{
+    height: 100%;
+}
+#mapaImagen{
+    width: 80%;
+    height: 30%;
+    margin-top: 5px;
+}
+#mapa{
+    width: 80%;
+    height: 30rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#contenedorBotones{
+    background-color: aqua;
+    padding: 3rem;
+    box-sizing: border-box;
 }

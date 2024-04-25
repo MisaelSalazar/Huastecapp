@@ -18,40 +18,29 @@
 <body>
 
     <header>
-
         <?php
-            $titulo = "Huastek App";
+            $titulo = "Aprendamos Tenek";
             include('../components/topAppMenu.php');
         ?>
-
     </header>
+
 
     <main>
         <center>
-
-            <img id="mapaImagen" src="../img/Mapa_SLP.png">
-
-            <a href="nahuatlHome.php">
-                <div id="nahuatl">
-
-                </div>
+            <a href="#">
+                <img src="../img/btnindicaciones_tenek.png" class="btnCategoria">
             </a>
-            <a href="tenekHome.php">
-                <div id="tenek"></div>
+            <a href="#">
+                <img src="../img/btncolor_tenek.png" class="btnCategoria">
             </a>
-            <a href="pameHome.php">
-                <div id="pame"></div>
+            <a href="#">
+                <img src="../img/btnnum_tenek.png" class="btnCategoria">
             </a>
-
-            <section>
-                <img id="ImagenNiños" src="../img/personajes_principal.png">
-            </section>
+            <a href="#">
+                <img src="../img/btnpronombres_tenek.png" class="btnCategoria">
+            </a>
         </center>
-
     </main>
-
-    <footer>
-    </footer>
 
 
     <script src="../public/fontawesome-free-6.5.1-web/all.js"></script>

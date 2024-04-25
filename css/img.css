@@ -1,5 +1,9 @@
 #ImagenNiños{
-    width: 86%;
+    position: fixed;
+    bottom: 0; /* Lo ancla al borde inferior de la pantalla */
+    left: 0; /* Opcional: también puedes ajustar la posición horizontal */
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho */
+    height: auto; 
 }
 #mapa{
     width: 90%;

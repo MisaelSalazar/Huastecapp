@@ -1,17 +1,36 @@
-button{
-    border-radius: 1rem;
-    border-style: none;
-    padding: 1rem;
-    margin: 1rem;
-    font-size: large;
-    color: white;
-}
+
 #nahuatl{
-    background-color: #7C9D3A;
+    background-image: url("../img/btn_nahuatl.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-style: none;
+    width: 30%;
+    height: 3rem;
+    display: inline-block;
+    box-sizing: border-box;
 }
 #tenek{
-    background-color: #CD3462;
+    background-image: url("../img/btn_tenek.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-style: none;
+    width: 30%;
+    height: 3rem;
+    display: inline-block;
+    box-sizing: border-box;
 }
 #pame{
-    background-color: #DC5E2C;
+    background-image: url("../img/btn_xioi.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-style: none;
+    width: 30%;
+    height: 3rem;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.btnCategoria{
+    height: 6rem;
+    margin-top: 2rem;
 }

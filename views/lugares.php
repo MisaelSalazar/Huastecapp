@@ -18,40 +18,21 @@
 <body>
 
     <header>
-
         <?php
-            $titulo = "Huastek App";
+            $titulo = "Lugares Turisticos De La Huasteca";
             include('../components/topAppMenu.php');
         ?>
-
     </header>
 
     <main>
         <center>
-
-            <img id="mapaImagen" src="../img/Mapa_SLP.png">
-
-            <a href="nahuatlHome.php">
-                <div id="nahuatl">
-
-                </div>
-            </a>
-            <a href="tenekHome.php">
-                <div id="tenek"></div>
-            </a>
-            <a href="pameHome.php">
-                <div id="pame"></div>
-            </a>
-
-            <section>
-                <img id="ImagenNiños" src="../img/personajes_principal.png">
-            </section>
+            <iframe id="mapa"
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d945850.0448407818!2d-99.47382766186313!3d22.174471522748576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1slugares%20turisticos%20huasteca%20potosina!5e0!3m2!1ses-419!2smx!4v1713913744879!5m2!1ses-419!2smx"
+                allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
         </center>
-
     </main>
-
-    <footer>
-    </footer>
 
 
     <script src="../public/fontawesome-free-6.5.1-web/all.js"></script>

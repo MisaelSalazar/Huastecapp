@@ -1,6 +1,6 @@
 /* Estilos para la barra de navegación superior */
 #top-bar {
-  background-color: #BA1830;
+  background-color: #7C9D3A;
   color: white;
   height: 60px;
   display: flex;
@@ -29,7 +29,7 @@
   position: absolute;
   top: 60px;
   left: 0;
-  background-color: #CD3462;
+  background-color: #a7d054;
   width: 200px;
   height: 100%;
   padding: 20px;
