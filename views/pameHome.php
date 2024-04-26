@@ -25,20 +25,11 @@
     </header>
 
     <main>
-        <center>
-            <a href="#">
-                <img src="../img/btnindicaciones_xioi.png" class="btnCategoria">
-            </a>
-            <a href="#">
-                <img src="../img/btncolor_xioi.png" class="btnCategoria">
-            </a>
-            <a href="#">
-                <img src="../img/btnnum_xioi.png" class="btnCategoria">
-            </a>
-            <a href="#">
-                <img src="../img/btnpronombres_xioi.png" class="btnCategoria">
-            </a>
-        </center>
+        <?php
+         $lengua = "xioi";
+         $linkIndicaciones ="#";
+         include('../components/menuLengua.php');
+        ?>
     </main>
 
 
