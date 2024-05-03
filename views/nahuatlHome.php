@@ -8,7 +8,6 @@
 
     <link rel="stylesheet" href="../public/fontawesome-free-6.5.1-web/all.css">
 
-    <link rel="stylesheet" href="../css/bottomNavBar.css">
     <link rel="stylesheet" href="../css/all.css">
     <link rel="stylesheet" href="../css/topAppMenu.css">
     <link rel="stylesheet" href="../css/img.css">
@@ -25,24 +24,21 @@
     </header>
 
     <main>
-        <center>
-            <a href="#">
-                <img src="../img/btnindicaciones_nahuatl.png" class="btnCategoria">
-            </a>
-            <a href="#">
-                <img src="../img/btncolor_nahuatl.png" class="btnCategoria">
-            </a>
-            <a href="#">
-                <img src="../img/btnnum_nahuatl.png" class="btnCategoria">
-            </a>
-            <a href="#">
-                <img src="../img/btnpronombres_nahuatl.png" class="btnCategoria">
-            </a>
-        </center>
+        <?php
+            $lengua = "Nahuatl";
+
+            $linkIndicaciones ="nahuatl/indicaciones.php";
+            $linkColores = "#";
+            $linkNumeros = "#";
+            $linkPronombres = "#";
+
+            include('../components/menuLengua.php');
+        ?>
     </main>
 
 
     <script src="../public/fontawesome-free-6.5.1-web/all.js"></script>
+    
 </body>
 
 </html>
