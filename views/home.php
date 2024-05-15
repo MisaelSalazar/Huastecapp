@@ -20,6 +20,9 @@
     <header>
 
         <?php
+            $iconoMenu = true;
+            $titulo = "Indicaciones en lengua Nahuatl";
+            $menuSuperior = true;
             $titulo = "Huastek App";
             include('../components/topAppMenu.php');
         ?>
@@ -43,7 +46,7 @@
                 <div id="pame"></div>
             </a>
 
-            <section>
+            <section id="contenedorImagenNiños">
                 <img id="ImagenNiños" src="../img/personajes_principal.png">
             </section>
         </center>

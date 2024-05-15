@@ -19,9 +19,12 @@
 
     <header>
         <?php
-            $titulo = "Consejos Para Aprender Mejor";
+            $iconoMenu = true;
+            $menuSuperior = true;
+            $titulo = "¡Aprendamos más!";
             include('../components/topAppMenu.php');
         ?>
+        <img id="informacion" src="../img/informacion.png">
     </header>
 
 

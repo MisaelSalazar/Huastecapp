@@ -19,6 +19,9 @@
 
     <header>
         <?php
+            $iconoMenu = true;
+            $titulo = "Indicaciones en lengua Nahuatl";
+            $menuSuperior = true;
             $titulo = "Aprendamos Xi'oi";
             include('../components/topAppMenu.php');
         ?>
@@ -26,9 +29,14 @@
 
     <main>
         <?php
-         $lengua = "xioi";
-         $linkIndicaciones ="#";
-         include('../components/menuLengua.php');
+            $lengua = "Xioi";
+
+            $linkIndicaciones ="xioi/indicaciones.php";
+            $linkColores = "xioi/colores.php";
+            $linkNumeros = "xioi/numeros.php";
+            $linkPronombres = "xioi/pronombres.php";
+
+            include('../components/menuLengua.php');
         ?>
     </main>
 

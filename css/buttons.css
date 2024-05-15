@@ -34,3 +34,13 @@
     height: 6rem;
     margin-top: 2rem;
 }
+
+.botonCarrusel{
+    background-color: #DC5E2C;
+    padding: 1rem;
+    margin: 2%;
+    border-style: none;
+    border-radius: 2rem;
+    font-size: large;
+    color: white;
+}

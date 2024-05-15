@@ -19,6 +19,8 @@
 
     <header>
         <?php
+            $iconoMenu = true;
+            $menuSuperior = true;
             $titulo = "Lugares Turisticos De La Huasteca";
             include('../components/topAppMenu.php');
         ?>

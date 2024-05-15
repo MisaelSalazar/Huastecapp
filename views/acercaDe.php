@@ -19,6 +19,8 @@
 
     <header>
         <?php
+            $iconoMenu = true;
+            $menuSuperior = true;
             $titulo = "Conocenos";
             include('../components/topAppMenu.php');
         ?>

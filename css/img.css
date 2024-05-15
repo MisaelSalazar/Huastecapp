@@ -1,5 +1,5 @@
 #ImagenNiños{
-    position: fixed;
+    /* position: absolute; */
     bottom: 0; /* Lo ancla al borde inferior de la pantalla */
     left: 0; /* Opcional: también puedes ajustar la posición horizontal */
     width: 100%; /* Asegura que la imagen ocupe todo el ancho */
@@ -7,4 +7,14 @@
 }
 #mapa{
     width: 90%;
+}
+#imagenCarrusel {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100rem; /* Ajusta el tamaño máximo de la imagen según tus necesidades */
+}
+
+#informacion{
+    width: 100%;
 }

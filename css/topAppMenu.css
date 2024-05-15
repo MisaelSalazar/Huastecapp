@@ -2,6 +2,7 @@
 #top-bar {
   background-color: #7C9D3A;
   color: white;
+  font-weight: bold;
   height: 60px;
   display: flex;
   align-items: center;
@@ -29,7 +30,7 @@
   position: absolute;
   top: 60px;
   left: 0;
-  background-color: #a7d054;
+  background-color: #6e9948;
   width: 200px;
   height: 100%;
   padding: 20px;
@@ -39,7 +40,8 @@
 /* Estilos para los elementos del menú */
 .menu-item {
   padding: 10px 0;
-  color: white;
+  color: #FFFFFF;
+  font-size: large;
   text-decoration: none;
   transition: color 0.3s;
   display: block;

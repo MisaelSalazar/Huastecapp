@@ -19,6 +19,9 @@
 
     <header>
         <?php
+            $iconoMenu = true;
+            $titulo = "Indicaciones en lengua Nahuatl";
+            $menuSuperior = true;
             $titulo = "Aprendamos Tenek";
             include('../components/topAppMenu.php');
         ?>
@@ -26,20 +29,16 @@
 
 
     <main>
-        <center>
-            <a href="#">
-                <img src="../img/btnindicaciones_tenek.png" class="btnCategoria">
-            </a>
-            <a href="#">
-                <img src="../img/btncolor_tenek.png" class="btnCategoria">
-            </a>
-            <a href="#">
-                <img src="../img/btnnum_tenek.png" class="btnCategoria">
-            </a>
-            <a href="#">
-                <img src="../img/btnpronombres_tenek.png" class="btnCategoria">
-            </a>
-        </center>
+        <?php
+            $lengua = "Tenek";
+
+            $linkIndicaciones ="tenek/indicaciones.php";
+            $linkColores = "tenek/colores.php";
+            $linkNumeros = "tenek/numeros.php";
+            $linkPronombres = "tenek/pronombres.php";
+
+            include('../components/menuLengua.php');
+        ?>
     </main>
 
 

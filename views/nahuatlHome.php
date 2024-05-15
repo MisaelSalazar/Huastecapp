@@ -18,6 +18,9 @@
 
     <header>
         <?php
+            $iconoMenu = true;
+            $titulo = "Indicaciones en lengua Nahuatl";
+            $menuSuperior = true;
             $titulo = "Aprendamos Nahuatl";
             include('../components/topAppMenu.php');
         ?>
@@ -28,9 +31,9 @@
             $lengua = "Nahuatl";
 
             $linkIndicaciones ="nahuatl/indicaciones.php";
-            $linkColores = "#";
-            $linkNumeros = "#";
-            $linkPronombres = "#";
+            $linkColores = "nahuatl/colores.php";
+            $linkNumeros = "nahuatl/numeros.php";
+            $linkPronombres = "nahuatl/pronombres.php";
 
             include('../components/menuLengua.php');
         ?>

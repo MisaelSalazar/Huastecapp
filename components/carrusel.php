@@ -1,19 +1,12 @@
-<div class="carousel">
+<!-- Aquí colocaremos las imágenes -->
+<img id="imagenCarrusel" src="<?php echo $primeraImagen?>" alt="Imagen">
 
-    <button class="prev" onclick="moveSlide(-1)"><i class="fa-solid fa-left-long"></i></button>
-    <div class="slides">
+<center>
+    <!-- Botones para cambiar la imagen -->
+    <button class="botonCarrusel" onclick="cambiarImagen(-1)"><i class="fa-solid fa-chevron-left"></i></button>
+    <button class="botonCarrusel" onclick="reproducirAudio()"><i class="fa-solid fa-volume-high"></i></button>
+    <button class="botonCarrusel" onclick="cambiarImagen(1)"><i class="fa-solid fa-chevron-right"></i></button>
+</center>
 
-        <div class="slide">
-            <img src="../../img/btn_tenek.png" alt="Imagen 1">
-        </div>
-        <div class="slide">
-            <img src="../../img/btn_nahuatl.png" alt="Imagen 2">
-        </div>
-        <div class="slide">
-            <img src="../../img/btn_xioi.png" alt="Imagen 3">
-        </div>
-
-    </div>
-
-    <button class="next" onclick="moveSlide(1)"><i class="fa-solid fa-right-long"></i></button>
-</div>
+<!-- Elemento de audio -->
+<audio id="audio" src="" preload="auto"></audio>
