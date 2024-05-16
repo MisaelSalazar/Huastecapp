@@ -22,7 +22,7 @@
             $iconoMenu = true;
             $titulo = "Indicaciones en lengua Nahuatl";
             $menuSuperior = true;
-            $titulo = "Aprendamos Tenek";
+            $titulo = "Aprendamos Tének";
             include('../components/topAppMenu.php');
         ?>
     </header>

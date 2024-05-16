@@ -19,7 +19,7 @@
     <header>
         <?php
             $iconoMenu = false;
-            $titulo = "Indicaciones en lengua Nahuatl";
+            $titulo = "Indicaciones en lengua Náhuatl";
             $menuSuperior = false;
             
             include('../../components/topAppMenu.php');

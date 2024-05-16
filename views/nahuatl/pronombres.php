@@ -19,7 +19,7 @@
     <header>
         <?php
             $iconoMenu = false;
-            $titulo = "Pronombres En Lengua Nahuatl";
+            $titulo = "Pronombres En Lengua Náhuatl";
             $menuSuperior = false;
             
             include('../../components/topAppMenu.php');

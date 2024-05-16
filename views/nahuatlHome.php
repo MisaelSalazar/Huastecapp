@@ -19,9 +19,9 @@
     <header>
         <?php
             $iconoMenu = true;
-            $titulo = "Indicaciones en lengua Nahuatl";
+            $titulo = "Indicaciones en lengua Náhuatl";
             $menuSuperior = true;
-            $titulo = "Aprendamos Nahuatl";
+            $titulo = "Aprendamos Náhuatl";
             include('../components/topAppMenu.php');
         ?>
     </header>

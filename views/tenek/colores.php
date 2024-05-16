@@ -19,7 +19,7 @@
     <header>
         <?php
             $iconoMenu = false;
-            $titulo = "Colores En Lengua Tenek";
+            $titulo = "Colores En Lengua Tének";
             $menuSuperior = false;
             
             include('../../components/topAppMenu.php');
