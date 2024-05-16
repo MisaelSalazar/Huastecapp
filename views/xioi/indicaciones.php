@@ -19,7 +19,7 @@
     <header>
         <?php
             $iconoMenu = false;
-            $titulo = "Indicaciones en lengua Nahuatl";
+            $titulo = "Indicaciones en lengua Xioi";
             $menuSuperior = false;
             
             include('../../components/topAppMenu.php');
@@ -27,14 +27,14 @@
     </header>
     <main>
         <?php
-            $primeraImagen = "../../img/indicacionesNahuatl/abajo.png";
+            $primeraImagen = "../../img/indicacionesPame/abajo.png";
             
             include('../../components/carrusel.php');
         ?>
     </main>
 
     <script>
-    var carpetaImagenes = "indicacionesNahuatl";
+    var carpetaImagenes = "indicacionesXioi";
     </script>
 
     <script src="../../scripts/rutasImagenes.js"></script>

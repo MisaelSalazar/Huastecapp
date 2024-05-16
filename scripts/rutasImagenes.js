@@ -43,14 +43,50 @@ if (carpetaImagenes == "numerosNahuatl") {//Rutas Numeros
         { imagen: '../../img/numerosPame/7.png', audio: '../../audio/numerosXioi/7.mp3' },
         { imagen: '../../img/numerosPame/8.png', audio: '../../audio/numerosXioi/8.mp3' },
         { imagen: '../../img/numerosPame/9.png', audio: '../../audio/numerosXioi/9.mp3' },
-        { imagen: '../../img/numerosPame/10.png', audio: '../../audio/numerosXioi/10.mp3' }
+        { imagen: '../../img/numerosPame/10.png', audio: '../../audio/numerosXioi/10.mp3' },
+        { imagen: '../../img/numerosPame/20.png', audio: '../../audio/numerosXioi/20.mp3' },
+        { imagen: '../../img/numerosPame/30.png', audio: '../../audio/numerosXioi/30.mp3' },
+        { imagen: '../../img/numerosPame/40.png', audio: '../../audio/numerosXioi/40.mp3' },
+        { imagen: '../../img/numerosPame/50.png', audio: '../../audio/numerosXioi/50.mp3' },
+        { imagen: '../../img/numerosPame/60.png', audio: '../../audio/numerosXioi/60.mp3' },
+        { imagen: '../../img/numerosPame/70.png', audio: '../../audio/numerosXioi/70.mp3' },
+        { imagen: '../../img/numerosPame/80.png', audio: '../../audio/numerosXioi/80.mp3' },
+        { imagen: '../../img/numerosPame/90.png', audio: '../../audio/numerosXioi/90.mp3' },
+        { imagen: '../../img/numerosPame/100.png', audio: '../../audio/numerosXioi/100.mp3' },
     ]
     
 }if (carpetaImagenes == "indicacionesNahuatl") {//Rutas Indicaciones
+
+    var datos = [
+        { imagen: '../../img/indicacionesNahuatl/abajo.png', audio: '../../audio/indicacionesNahuatl/abajo.mp3' },
+        { imagen: '../../img/indicacionesNahuatl/adelante.png', audio: '../../audio/indicacionesNahuatl/adelante.mp3' },
+        { imagen: '../../img/indicacionesNahuatl/arriba.png', audio: '../../audio/indicacionesNahuatl/arriba.mp3' },
+        { imagen: '../../img/indicacionesNahuatl/atras.png', audio: '../../audio/indicacionesNahuatl/atras.mp3' },
+        { imagen: '../../img/indicacionesNahuatl/derecha.png', audio: '../../audio/indicacionesNahuatl/derecha.mp3' },
+        { imagen: '../../img/indicacionesNahuatl/izquierda.png', audio: '../../audio/indicacionesNahuatl/izquierda.mp3' }
+    ]
     
 }if (carpetaImagenes == "indicacionesTenek") {
+
+    var datos = [
+        { imagen: '../../img/indicacionesTenek/abajo.png', audio: '../../audio/indicacionesTenek/abajo.mp3' },
+        { imagen: '../../img/indicacionesTenek/adelante.png', audio: '../../audio/indicacionesTenek/adelante.mp3' },
+        { imagen: '../../img/indicacionesTenek/arriba.png', audio: '../../audio/indicacionesTenek/arriba.mp3' },
+        { imagen: '../../img/indicacionesTenek/atras.png', audio: '../../audio/indicacionesTenek/atras.mp3' },
+        { imagen: '../../img/indicacionesTenek/derecha.png', audio: '../../audio/indicacionesTenek/derecha.mp3' },
+        { imagen: '../../img/indicacionesTenek/izquierda.png', audio: '../../audio/indicacionesTenek/izquierda.mp3' }
+    ]
     
 }if (carpetaImagenes == "indicacionesXioi") {
+
+    var datos = [
+        { imagen: '../../img/indicacionesPame/abajo.png', audio: '../../audio/indicacionesPame/abajo.mp3' },
+        { imagen: '../../img/indicacionesPame/adelante.png', audio: '../../audio/indicacionesPame/adelante.mp3' },
+        { imagen: '../../img/indicacionesPame/arriba.png', audio: '../../audio/indicacionesPame/arriba.mp3' },
+        { imagen: '../../img/indicacionesPame/atras.png', audio: '../../audio/indicacionesPame/atras.mp3' },
+        { imagen: '../../img/indicacionesPame/derecha.png', audio: '../../audio/indicacionesPame/derecha.mp3' },
+        { imagen: '../../img/indicacionesPame/izquierda.png', audio: '../../audio/indicacionesPame/izquierda.mp3' }
+    ]
     
 }if (carpetaImagenes == "coloresNahuatl") {//Rutas Colores
     
@@ -98,6 +134,15 @@ if (carpetaImagenes == "numerosNahuatl") {//Rutas Numeros
     ]
 
 }if (carpetaImagenes == "pronombresTenek") {
+
+    var datos = [
+        { imagen: '../../img/pronombresTenek/Yo.png', audio: '../../audio/pronombresTenek/yo.mp3' },
+        { imagen: '../../img/pronombresTenek/Ellos.png', audio: '../../audio/pronombresTenek/ellos.mp3' },
+        { imagen: '../../img/pronombresTenek/Nosotros.png', audio: '../../audio/pronombresTenek/nosotros.mp3' },
+        { imagen: '../../img/pronombresTenek/Tu.png', audio: '../../audio/pronombresTenek/tu.mp3' },
+        { imagen: '../../img/pronombresTenek/Ustedes.png', audio: '../../audio/pronombresTenek/ustedes.mp3' },
+        { imagen: '../../img/pronombresTenek/El.png', audio: '../../audio/pronombresTenek/el.mp3' },
+    ]
     
 }if (carpetaImagenes == "pronombresXioi") {
     
