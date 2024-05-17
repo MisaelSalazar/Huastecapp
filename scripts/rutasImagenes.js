@@ -58,23 +58,23 @@ if (carpetaImagenes == "numerosNahuatl") {//Rutas Numeros
 }if (carpetaImagenes == "indicacionesNahuatl") {//Rutas Indicaciones
 
     var datos = [
-        { imagen: '../../img/indicacionesNahuatl/abajo.png', audio: '../../audio/indicacionesNahuatl/abajo.mp3' },
-        { imagen: '../../img/indicacionesNahuatl/adelante.png', audio: '../../audio/indicacionesNahuatl/adelante.mp3' },
-        { imagen: '../../img/indicacionesNahuatl/arriba.png', audio: '../../audio/indicacionesNahuatl/arriba.mp3' },
-        { imagen: '../../img/indicacionesNahuatl/atras.png', audio: '../../audio/indicacionesNahuatl/atras.mp3' },
-        { imagen: '../../img/indicacionesNahuatl/derecha.png', audio: '../../audio/indicacionesNahuatl/derecha.mp3' },
-        { imagen: '../../img/indicacionesNahuatl/izquierda.png', audio: '../../audio/indicacionesNahuatl/izquierda.mp3' }
+        { imagen: '../../img/indicacionesNahuatl/abajo.png', audio: '../../audio/indicacionesNahuatl/abajo.wav' },
+        { imagen: '../../img/indicacionesNahuatl/adelante.png', audio: '../../audio/indicacionesNahuatl/adelante.wav' },
+        { imagen: '../../img/indicacionesNahuatl/arriba.png', audio: '../../audio/indicacionesNahuatl/arriba.wav' },
+        { imagen: '../../img/indicacionesNahuatl/atras.png', audio: '../../audio/indicacionesNahuatl/atras.wav' },
+        { imagen: '../../img/indicacionesNahuatl/derecha.png', audio: '../../audio/indicacionesNahuatl/derecha.wav' },
+        { imagen: '../../img/indicacionesNahuatl/izquierda.png', audio: '../../audio/indicacionesNahuatl/izquierda.wav' }
     ]
     
 }if (carpetaImagenes == "indicacionesTenek") {
 
     var datos = [
-        { imagen: '../../img/indicacionesTenek/abajo.png', audio: '../../audio/indicacionesTenek/abajo.mp3' },
-        { imagen: '../../img/indicacionesTenek/adelante.png', audio: '../../audio/indicacionesTenek/adelante.mp3' },
-        { imagen: '../../img/indicacionesTenek/arriba.png', audio: '../../audio/indicacionesTenek/arriba.mp3' },
-        { imagen: '../../img/indicacionesTenek/atras.png', audio: '../../audio/indicacionesTenek/atras.mp3' },
-        { imagen: '../../img/indicacionesTenek/derecha.png', audio: '../../audio/indicacionesTenek/derecha.mp3' },
-        { imagen: '../../img/indicacionesTenek/izquierda.png', audio: '../../audio/indicacionesTenek/izquierda.mp3' }
+        { imagen: '../../img/indicacionesTenek/abajo.png', audio: '../../audio/indicacionesTenek/abajo.wav' },
+        { imagen: '../../img/indicacionesTenek/adelante.png', audio: '../../audio/indicacionesTenek/adelante.wav' },
+        { imagen: '../../img/indicacionesTenek/arriba.png', audio: '../../audio/indicacionesTenek/arriba.wav' },
+        { imagen: '../../img/indicacionesTenek/atras.png', audio: '../../audio/indicacionesTenek/atras.wav' },
+        { imagen: '../../img/indicacionesTenek/derecha.png', audio: '../../audio/indicacionesTenek/derecha.wav' },
+        { imagen: '../../img/indicacionesTenek/izquierda.png', audio: '../../audio/indicacionesTenek/izquierda.wav' }
     ]
     
 }if (carpetaImagenes == "indicacionesXioi") {
