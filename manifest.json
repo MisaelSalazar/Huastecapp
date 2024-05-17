@@ -1,6 +1,6 @@
 {
-    "name": "Huastek App",
-    "short_name": "Huastek App",
+    "name": "HuastekApp",
+    "short_name": "HuastekApp",
     "start_url": "/",
     "display": "standalone",
     "theme_color": "#CD3462",

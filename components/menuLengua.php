@@ -11,4 +11,5 @@
     <a href="<?php echo $linkPronombres ?>">
         <img src="<?php echo '../img/btnpronombres_'.$lengua.'.png'?>" class="btnCategoria">
     </a>
+    
 </center>

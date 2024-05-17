@@ -37,7 +37,13 @@
             $linkPronombres = "xioi/pronombres.php";
 
             include('../components/menuLengua.php');
+            
         ?>
+        <center>
+            <a href="xioi/actividad.php">
+                <img src="<?php echo '../img/actividades.png'?>" class="btnCategoria">
+            </a>
+        </center>
     </main>
 
 
