@@ -37,5 +37,3 @@ El propósito de esta app es preservar y fomentar el aprendizaje de lenguas ind�
   - 👥 Acerca de la app y autores
 
 ---
-o
-
